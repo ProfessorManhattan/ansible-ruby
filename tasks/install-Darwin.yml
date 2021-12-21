@@ -1,5 +1,5 @@
 ---
-- name: "Ensure {{ app_name }} is installed"
+- name: 'Ensure {{ app_name }} is installed'
   become: false
   community.general.homebrew:
     name: ruby
@@ -7,15 +7,15 @@
 
 - name: Ensure configured gems are installed (system)
   gem:
-    name: "{{ item.name }}"
+    name: '{{ item.name }}'
     state: present
     user_install: false
-  loop: "{{ ruby_gems }}"
+  loop: '{{ ruby_gems }}'
   ignore_errors: true
 
 - name: Ensure configured gems are installed (user)
   include_tasks: user-Linux.yml
-  loop: "{{ user_configs }}"
+  loop: '{{ user_configs }}'
   loop_control:
-    label: "{{ user.username }}"
+    label: '{{ user.username }}'
     loop_var: user

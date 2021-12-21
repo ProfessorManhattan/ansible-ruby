@@ -1,5 +1,5 @@
 ---
-- name: "Ensure {{ app_name }} is installed"
+- name: 'Ensure {{ app_name }} is installed'
   chocolatey.chocolatey.win_chocolatey:
     name: ruby
     state: "{{ app_state | default('present') }}"
@@ -17,7 +17,7 @@
 
 - name: Ensure configured gems are installed (user)
   include_tasks: user-Windows.yml
-  loop: "{{ user_configs }}"
+  loop: '{{ user_configs }}'
   loop_control:
-    label: "{{ user.username }}"
+    label: '{{ user.username }}'
     loop_var: user

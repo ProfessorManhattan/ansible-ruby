@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: ruby
+  namespace: professormanhattan
   author: ProfessorManhattan
   description: Installs Ruby (as well as a configurable list of system or user level gems) on almost any platform
   company: Megabyte Labs
@@ -32,7 +33,6 @@ galaxy_info:
     - ubuntu
     - washingtondc
     - windows
-  namespace: professormanhattan
 dependencies:
   - role: professormanhattan.snapd
     when: ansible_system == 'Linux'

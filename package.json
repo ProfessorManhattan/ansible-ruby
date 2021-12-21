@@ -2,7 +2,7 @@
   "private": false,
   "name": "@installdoc/ansible-ruby",
   "version": "0.0.1",
-  "description": "Installs Ruby on nearly any OS",
+  "description": "Installs Ruby (as well as a configurable list of system or user level gems) on almost any platform",
   "license": "MIT",
   "author": "Brian Zalewski <brian@megabyte.space> (https://megabyte.space)",
   "homepage": "https://megabyte.space",

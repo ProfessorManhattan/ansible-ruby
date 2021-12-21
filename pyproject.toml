@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "ansible-ruby"
 version = "0.0.1"
-description = "Installs Ruby on nearly any OS"
+description = "Installs Ruby (as well as a configurable list of system or user level gems) on almost any platform"
 authors = ["Brian Zalewski <brian@megabyte.space>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://megabyte.space"
 documentation = "https://megabyte.space/docs/ansible/roles"
-keywords = []
+keywords = ["ansible", "ansible-role", "archlinux", "centos", "debian", "doctor", "fedora", "gems", "install", "installdoc", "installdoctor", "language", "macos", "mblabs", "megabytelabs", "molecule", "professormanhattan", "programming", "rake", "role", "ruby", "ubuntu", "washingtondc", "windows"]
 include = ["CHANGELOG.md", "LICENSE"]
 classifiers = [
   "Development Status :: 4 - Beta",
