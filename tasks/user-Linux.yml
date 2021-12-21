@@ -1,0 +1,7 @@
+---
+- name: "Install {{ user.username }}'s gems"
+  gem:
+    name: "{{ item.name }}"
+    state: present
+  loop: "{{ user.gems | default([]) }}"
+  ignore_errors: true
