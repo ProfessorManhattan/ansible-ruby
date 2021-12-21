@@ -4,3 +4,7 @@ roles:
 collections:
   - name: community.general
     source: https://galaxy.ansible.com
+  - name: chocolatey.chocolatey
+    source: https://galaxy.ansible.com
+  - name: google.cloud
+    source: https://galaxy.ansible.com
