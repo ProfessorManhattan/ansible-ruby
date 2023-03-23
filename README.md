@@ -64,7 +64,7 @@
   </a>
 </div>
 
-> </br><h4 align="center">**An Ansible role that installs Ruby (as well as a configurable list of system or user level gems) on almost any platform**</h4></br>
+> <br/><h4 align="center">**An Ansible role that installs Ruby (as well as a configurable list of system or user level gems) on almost any platform**</h4><br/>
 
 <!--TERMINALIZE![terminalizer_title](https://gitlab.com/megabyte-labs/ansible-roles/ruby* **github**: /raw/master/docs/demo.gif
 * **gitlab**: /-/raw/master/docs/demo.gif)TERMINALIZE-->
